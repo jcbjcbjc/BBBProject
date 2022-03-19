@@ -1,0 +1,6 @@
+C:\Users\zlf\Desktop\GameServer\Common\bin\Debug\Common.dll
+C:\Users\zlf\Desktop\GameServer\Common\bin\Debug\Common.pdb
+C:\Users\zlf\Desktop\GameServer\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\zlf\Desktop\GameServer\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\zlf\Desktop\GameServer\Common\obj\Debug\Common.dll
+C:\Users\zlf\Desktop\GameServer\Common\obj\Debug\Common.pdb

@@ -1,0 +1,14 @@
+C:\Users\75772\Documents\Projects\GameServer\Common\bin\Debug\Common.dll
+C:\Users\75772\Documents\Projects\GameServer\Common\bin\Debug\Common.pdb
+C:\Users\75772\Documents\Projects\GameServer\Common\obj\Debug\Common.dll
+C:\Users\75772\Documents\Projects\GameServer\Common\obj\Debug\Common.pdb
+C:\我的项目\ConsoleProjects\GameServer\Common\bin\Debug\Common.dll
+C:\我的项目\ConsoleProjects\GameServer\Common\bin\Debug\Common.pdb
+C:\我的项目\ConsoleProjects\GameServer\Common\obj\Debug\Common.dll
+C:\我的项目\ConsoleProjects\GameServer\Common\obj\Debug\Common.pdb
+C:\Users\lenovo\Desktop\GameServer\Common\bin\Debug\Common.dll
+C:\Users\lenovo\Desktop\GameServer\Common\bin\Debug\Common.pdb
+C:\Users\lenovo\Desktop\GameServer\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\GameServer\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\GameServer\Common\obj\Debug\Common.dll
+C:\Users\lenovo\Desktop\GameServer\Common\obj\Debug\Common.pdb

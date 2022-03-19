@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="GameServer\GameServer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameServer\Controller\RoomController.cs">
+    <Files>
+      <File FileName="GameServer\Program.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Controller\RoomController.cs" Line="116" Column="36" />
+      <File FileName="GameServer\Do\RoomDo.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Server\NetClient.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Server\NetServer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

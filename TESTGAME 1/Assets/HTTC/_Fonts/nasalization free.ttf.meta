@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e7467d6585264f34c85aefecd4e13293
+timeCreated: 1496074455
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nasalization Free
+  fontNames:
+  - Nasalization Free
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

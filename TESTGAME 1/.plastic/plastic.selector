@@ -1,0 +1,4 @@
+repository "TESTGAME@ssl://weihaohhh@sh02-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/1906876974" 
+     
