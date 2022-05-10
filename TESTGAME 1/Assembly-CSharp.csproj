@@ -56,65 +56,58 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Control\Set_Controller.cs" />
-    <Compile Include="Assets\Sources\Scripts\MessageHandle\MessageCenter.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\BaseUIForm.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\Localization\LauguageMgr.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameConfig\IConfigManager.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\gadget.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\GameOver.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\StartPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Control\Talent_Controller.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameConfig\SysDefine.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Navigation\MapEditor.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\Exception\JsonAnlysisException.cs" />
-    <Compile Include="Assets\Sources\Scripts\MessageHandle\MainThreadHandler.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\scripts1\PlayMenu.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameConfig\ConfigManagerByJson.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\GameLogicManager\ControlManager.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\People.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\UnityHelper.cs" />
-    <Compile Include="Assets\Sources\Scripts\Common\Data.cs" />
-    <Compile Include="Assets\Sources\Scripts\Net\Pack.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\ResultInfoPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\MenuPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Control\NetBaseControl.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\ResourcesMgr.cs" />
-    <Compile Include="Assets\Sources\Scripts\MessageHandle\EventTriggerListener.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\RegisterPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\Common\Proconst.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Navigation\NavigationClassic.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\_UI_Control.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Control\_stage_control.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\UIType.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\MessagePanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\Multiple_UI_Control.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\Log\Log.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\scripts1\Player2_Controller.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Navigation\Navigation.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\PersonInfo.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\scripts1\Player1_Controller.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\RoomPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\Texture\floor_scroll.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Platform\_platform.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIManager.cs" />
-    <Compile Include="Assets\Sources\Scripts\Game.cs" />
-    <Compile Include="Assets\Sources\Scripts\Common\CustomVar.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\RoomListPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\Net\NetConn.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\Level.cs" />
-    <Compile Include="Assets\Sources\Scripts\Common\PatternCode.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\TestUnityJson2.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIMaskMgr.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\RoomItem.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\Navigation\MyPoint.cs" />
+    <Compile Include="Assets\Scripts\Gameconfig\gadget.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\GameOver.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\ViewManager.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\StartPanel.cs" />
+    <Compile Include="Assets\Scripts\Control\Talent_Controller.cs" />
+    <Compile Include="Assets\Scripts\Navigation\MapEditor.cs" />
+    <Compile Include="Assets\Scripts\scripts1\PlayMenu.cs" />
+    <Compile Include="Assets\Scripts\Control\ControlManager.cs" />
+    <Compile Include="Assets\Scripts\TestJson\People.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\ResultInfoPanel.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\MenuPanel.cs" />
+    <Compile Include="Assets\Scripts\Control\BaseControl.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\RegisterPanel.cs" />
+    <Compile Include="Assets\Scripts\Navigation\NavigationMultiple.cs" />
+    <Compile Include="Assets\Scripts\Control\Multiple_Controller.cs" />
+    <Compile Include="Assets\Scripts\Navigation\NavigationClassic.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\_UI_Control.cs" />
+    <Compile Include="Assets\Scripts\Control\_stage_control.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\MessagePanel.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\Multiple_UI_Control.cs" />
+    <Compile Include="Assets\Scripts\scripts1\Player2_Controller.cs" />
+    <Compile Include="Assets\Scripts\Navigation\Navigation.cs" />
+    <Compile Include="Assets\Scripts\Common\RequestCode.cs" />
+    <Compile Include="Assets\Scripts\TestJson\PersonInfo.cs" />
+    <Compile Include="Assets\Scripts\Control\Hexgon_Control.cs" />
+    <Compile Include="Assets\Scripts\scripts1\Player1_Controller.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\RoomPanel.cs" />
+    <Compile Include="Assets\Scripts\Gameconfig\floor_scroll.cs" />
+    <Compile Include="Assets\Scripts\Platform\_platform.cs" />
+    <Compile Include="Assets\Scripts\Player\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Game.cs" />
+    <Compile Include="Assets\Scripts\Gameconfig\CustomVar.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\RoomListPanel.cs" />
+    <Compile Include="Assets\Scripts\Net\NetConn.cs" />
+    <Compile Include="Assets\Scripts\Player\TalentPlayer.cs" />
+    <Compile Include="Assets\Scripts\TestJson\Level.cs" />
+    <Compile Include="Assets\Scripts\Common\PatternCode.cs" />
+    <Compile Include="Assets\Scripts\Common\GameCode.cs" />
+    <Compile Include="Assets\Scripts\TestJson\TestUnityJson2.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\RoomItem.cs" />
+    <Compile Include="Assets\Scripts\Common\ActionCode.cs" />
+    <Compile Include="Assets\Scripts\Navigation\MyPoint.cs" />
     <Compile Include="Assets\HTTC\_AdMob\Scripts\_admob_admin.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\LoginPanel.cs" />
-    <Compile Include="Assets\Sources\Scripts\GameLogic\GameLogicManager\PlayerManager.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\Hero.cs" />
-    <Compile Include="Assets\Sources\Scripts\Helper\TestJson\TestUnityJson.cs" />
-    <Compile Include="Assets\Sources\Scripts\Common\MapCode.cs" />
-    <Compile Include="Assets\Sources\Scripts\UI\UIPanel\MainPanel.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\LoginPanel.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\BasePanel.cs" />
+    <Compile Include="Assets\Scripts\Player\Player_Control.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\TestJson\Hero.cs" />
+    <Compile Include="Assets\Scripts\TestJson\TestUnityJson.cs" />
+    <Compile Include="Assets\Scripts\Common\MapCode.cs" />
+    <Compile Include="Assets\Scripts\Player\BasePlayer.cs" />
+    <Compile Include="Assets\Scripts\UIPanel\MainPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -353,15 +346,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\unityEditor\2021.2.5f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
@@ -767,9 +751,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime">
-      <HintPath>Library\ScriptAssemblies\ILRuntime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
