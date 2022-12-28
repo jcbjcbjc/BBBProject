@@ -2,8 +2,8 @@
 Break Brick Block 服务端客户端完整项目
 
 ## try
-如果没有服务器的条件可以在Releases里下载单机版本体验BBB
-有服务器可以在自己服务器部署BBBServer 下载现行版本体验
+- 如果没有服务器的条件可以在Releases里下载单机版本体验BBB
+- 有服务器可以在自己服务器部署BBBServer 下载现行版本体验
  
 ## 效果图
 ![121a503376163fec](https://user-images.githubusercontent.com/91889375/167772087-bdc6d484-68d0-4820-801f-c2a8511fa753.png)
